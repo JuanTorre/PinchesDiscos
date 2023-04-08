@@ -14,9 +14,9 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: gray;
+    background-image: url(/images/PinchesDiscos_Barna.png);
 }
 
 img {
@@ -39,8 +39,8 @@ p {
     box-sizing: border-box;
     width: 90%;
     height: 80%;
-    padding-left: 39%;
-    padding-right: 43%;
+    padding-left: 40%;
+    padding-right: 40%;
     margin-left: 6%;
     display: flex;
     justify-content: space-between;
@@ -54,12 +54,11 @@ p {
 
 .main-container {
     box-sizing: border-box;
-    width: 1000px;
-    height: 1000px;
+    width: 60%;
+    height: 60%;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 20%;
-    border-width: 5px;
 }
 
 .pincheimage {
@@ -71,17 +70,20 @@ p {
 .site-footer {
     box-sizing: border-box;
     width: 100%;
-    height: 70px;
+    height: 5em;
+    background-color: gray;
 }
 
 .copyright-container {
     box-sizing: border-box;
     width: 100%;
-    height: 30%;
+    height: 100%;
+    margin-top: 7%;
     text-align: center;
 }
 
 .copyright-container p {
     color: black;
     font-size: 15px;
+    padding-top: 1%;
 }
